@@ -16,7 +16,7 @@ public class ExtentReportManager {
         extent.attachReporter(sparkReporter);
 
         // Add system info
-        extent.setSystemInfo("Project Name", "OrangeHRM Automation");
+        extent.setSystemInfo("Project Name", "OrangeHRM Automation01");
         extent.setSystemInfo("Tester", "Rakesh Roshan");
         extent.setSystemInfo("Email_Id", "rakeshkumarroshan62@gmail.com");
 

@@ -7,9 +7,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="flushReport"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
           <include name="setUpReport"/>
-          <include name="invalidLoginTest" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginTest -->
     </classes>
