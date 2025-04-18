@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T00:19:27 IST" name="Default suite" finished-at="2025-04-19T00:19:55 IST" duration-ms="28045">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T00:19:27 IST" name="Default test" finished-at="2025-04-19T00:19:55 IST" duration-ms="28045">
+      <class name="com.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUpReport()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:27 IST" name="setUpReport" finished-at="2025-04-19T00:19:27 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:27 IST" name="setUp" finished-at="2025-04-19T00:19:33 IST" duration-ms="5250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:33 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2025-04-19T00:19:35 IST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:35 IST" name="tearDown" finished-at="2025-04-19T00:19:35 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:35 IST" name="setUp" finished-at="2025-04-19T00:19:39 IST" duration-ms="4237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:39 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2025-04-19T00:19:41 IST" duration-ms="1869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:41 IST" name="tearDown" finished-at="2025-04-19T00:19:41 IST" duration-ms="89" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:41 IST" name="setUp" finished-at="2025-04-19T00:19:48 IST" duration-ms="6685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:48 IST" name="invalidLoginTest" data-provider="invalidData" finished-at="2025-04-19T00:19:51 IST" duration-ms="2942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:51 IST" name="tearDown" finished-at="2025-04-19T00:19:51 IST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcases.LoginTest@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:51 IST" name="setUp" finished-at="2025-04-19T00:19:55 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:55 IST" name="loginTest" finished-at="2025-04-19T00:19:55 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:55 IST" name="tearDown" finished-at="2025-04-19T00:19:55 IST" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.qa.testcases.LoginTest@49438269] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.qa.testcases.LoginTest@49438269]" started-at="2025-04-19T00:19:55 IST" name="flushReport" finished-at="2025-04-19T00:19:55 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.qa.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
