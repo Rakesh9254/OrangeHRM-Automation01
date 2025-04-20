@@ -14,8 +14,8 @@ public class HomePage {
 
     // Logout method
     public void logout() {
-        driver.findElement(By.className("oxd-userdropdown-tab")).click(); // profile menu
-        driver.findElement(By.xpath("//a[text()='Logout']")).click();    // Logout link
+        driver.findElement(By.className("oxd-userdropdown-tab")).click();
+        driver.findElement(By.xpath("//a[text()='Logout']")).click(); 
     }
 
     public String getLoginPageTitle() {

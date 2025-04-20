@@ -38,7 +38,7 @@ public class BaseTest {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		}
-		// (Optional) Add Firefox, Edge support here
+		
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -55,6 +55,7 @@ public class BaseTest {
 		}
 
 		if (driver != null) {
+			
 			driver.quit();
 		}
 	}

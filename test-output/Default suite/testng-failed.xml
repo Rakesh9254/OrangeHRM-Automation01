@@ -10,6 +10,7 @@
           <include name="loginTest"/>
           <include name="setUp"/>
           <include name="setUpReport"/>
+          <include name="invalidLoginTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.qa.testcases.LoginTest -->
     </classes>

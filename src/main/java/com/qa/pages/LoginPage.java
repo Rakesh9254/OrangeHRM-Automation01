@@ -23,7 +23,7 @@ public class LoginPage {
     WebElement loginButton;
 
     @FindBy(xpath = "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
-    WebElement errorMessage; // Element for error message
+    WebElement errorMessage; 
 
     // Constructor to initialize page elements
     public LoginPage(WebDriver driver) {
@@ -58,7 +58,7 @@ public class LoginPage {
             WebElement errorMsg = driver.findElement(By.xpath("//p[contains(@class,'oxd-alert-content-text')]"));
             return errorMsg.getText();
         } catch (NoSuchElementException e) {
-            return null; // No error message means login possibly succeeded
+            return null;
         }
     }
 

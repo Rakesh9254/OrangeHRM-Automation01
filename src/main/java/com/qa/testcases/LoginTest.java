@@ -43,6 +43,7 @@ public class LoginTest extends BaseTest {
         test = extent.createTest("Invalid Login Test - " + uname + " / " + pwd);
 
         LoginPage loginPage = new LoginPage(driver);
+       
         loginPage.loginToOrangeHRM(uname, pwd);
 
         test.info("Entered credentials");
@@ -52,6 +53,9 @@ public class LoginTest extends BaseTest {
         Assert.assertEquals(actualError, "Invalid credentials", "Error message did not match");
 
         test.pass("Proper error message displayed");
+        
+        
+        
     }
 
 
