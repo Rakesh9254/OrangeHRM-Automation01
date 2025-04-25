@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest {
         test.info("Clicking on login button");
         loginPage.clickLogin();
 
-        test.info("Verifying page title after login");
+        test.info("Verifying pages sshshshshshhs title after login");
         String actualTitle = loginPage.getPageTitle();
         String expectedTitle = "OrangeHRM";
         Assert.assertEquals(actualTitle, expectedTitle, "Login failed or unexpected page title");
